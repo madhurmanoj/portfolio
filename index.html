@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madhur Manoj - Full Stack Developer & Designer</title>
+    <meta name="description" content="Portfolio of Madhur Manoj - Full Stack Developer and Designer specializing in React, Node.js, and modern web technologies." />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: #111827;
+        overflow-x: hidden;
+      }
+      
+      .perspective-1000 {
+        perspective: 1000px;
+      }
+      
+      .transform-gpu {
+        transform: translateZ(0);
+        will-change: transform;
+      }
+      
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-20px); }
+      }
+      
+      .animate-float {
+        animation: float 6s ease-in-out infinite;
+      }
+      
+      .animate-float-delayed {
+        animation: float 6s ease-in-out infinite;
+        animation-delay: -3s;
+      }
+      
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #1f2937;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(45deg, #ff6b35, #f7931e);
+        border-radius: 4px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(45deg, #f7931e, #ff6b35);
+      }
+      
+      /* Smooth scroll */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
