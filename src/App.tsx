@@ -549,7 +549,7 @@ function AppContent() {
             </span>
           </h2>
           <div className="max-w-3xl mx-auto flex flex-col items-center space-y-12">
-            {/* Example Experience 1 */}
+            {/* Experience 1 */}
             <div className="w-full flex justify-center">
               <div className="inline-block bg-white/10 px-6 py-6 rounded-2xl shadow-lg border border-gray-700 w-full max-w-xl">
                 <h3 className="text-2xl font-bold mb-2 text-orange-300">Mern Stack Intern</h3>
@@ -560,7 +560,7 @@ function AppContent() {
                 <p className="text-gray-300 text-sm">6 Weeks MERN Stack Internship. Developed and Maintained web applications that used MERN.</p>
               </div>
             </div>
-            {/* Example Experience 2 */}
+            {/* Experience 2 */}
             <div className="w-full flex justify-center">
               <div className="inline-block bg-white/10 px-6 py-6 rounded-2xl shadow-lg border border-gray-700 w-full max-w-xl">
                 <h3 className="text-2xl font-bold mb-2 text-yellow-300">Software Development Intern</h3>
