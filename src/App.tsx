@@ -563,7 +563,7 @@ function AppContent() {
             {/* Example Experience 2 */}
             <div className="w-full flex justify-center">
               <div className="inline-block bg-white/10 px-6 py-6 rounded-2xl shadow-lg border border-gray-700 w-full max-w-xl">
-                <h3 className="text-2xl font-bold mb-2 text-yellow-300">Software Engineering Intern</h3>
+                <h3 className="text-2xl font-bold mb-2 text-yellow-300">Software Development Intern</h3>
                 <div className="flex items-center text-left justify-between mb-2">
                   <span className="text-sm text-gray-400">Prodigy InfoTech</span>
                   <span className="ml-4 px-3 py-1 bg-yellow-100/10 text-yellow-400 rounded-full text-xs font-semibold">February 2025 - March 2025</span>
