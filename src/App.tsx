@@ -170,7 +170,7 @@ function AppContent() {
       tech: ["React", "Node.js", "Supabase", "Tailwind CSS"],
       color: "from-green-500 to-teal-500",
       link: "",
-      github: "https://github.com/madhurmanoj/upi-expense-tracker"
+      github: "https://github.com/madhurmanoj/expense-tracker"
     },
     {
       id: 4,
