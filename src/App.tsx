@@ -169,7 +169,7 @@ function AppContent() {
       image: "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=800",
       tech: ["React", "Node.js", "Supabase", "Tailwind CSS"],
       color: "from-green-500 to-teal-500",
-      link: "",
+      link: "https://expeense-trackerr.vercel.app/",
       github: "https://github.com/madhurmanoj/expense-tracker"
     },
     {
